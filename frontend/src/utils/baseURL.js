@@ -1,5 +1,5 @@
 const getBaseUrl = () => {
-    return "http://localhost:5000"
-}
+  return import.meta.env.VITE_REACT_APP_API_URL;
+};
 
 export default getBaseUrl;
